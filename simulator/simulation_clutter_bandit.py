@@ -6,7 +6,7 @@ sys.path.append('..')
 from pathlib import Path
 import pybullet
 from grasp import Label
-from perception import *
+from .perception import *
 import btsim
 from workspace_lines import workspace_lines
 from transform import Rotation,Transform

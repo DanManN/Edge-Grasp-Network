@@ -20,6 +20,8 @@ from termcolor import colored
 from models.edge_grasper import EdgeGrasper
 from models.vn_edge_grasper import EdgeGrasper as VNGrasper
 import tqdm
+from simulator.perception import camera_on_sphere, create_tsdf
+from math import sin, cos
 warnings.filterwarnings("ignore")
 # OBJECT_COUNT_LAMBDA = 4
 # MAX_VIEWPOINT_COUNT = 4

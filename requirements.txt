@@ -1,0 +1,18 @@
+# micromamba install -c conda-forge -c pytorch -c nvidia -c pyg
+pillow
+termcolor
+###
+scipy
+mayavi
+open3d
+pybullet
+py-opencv
+matplotlib
+scikit-learn
+###
+pyg
+pytorch
+pytorch-cuda=12.4
+torch-scatter
+# pip install
+torch-cluster

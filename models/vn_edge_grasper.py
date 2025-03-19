@@ -8,7 +8,7 @@ from dataset_processor import Grasp_Dataset, GraspNormalization, GraspAugmentati
 from vn_edge_grasp_network import EdgeGrasp
 import torch
 import time
-from utils import write_test,write_training
+from .utils import write_test,write_training
 import argparse
 from torch_geometric.data import DataLoader
 import warnings
